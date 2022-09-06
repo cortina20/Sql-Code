@@ -1,0 +1,3 @@
+select count(win_loss) as total_wins_or_losses, WIN_LOSS
+from personal_day_trades
+group by WIN_LOSS
